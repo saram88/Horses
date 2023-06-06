@@ -1,63 +1,47 @@
 # Horses
 
 
-Easy training is a website that should support the person who has a motivation to start exercise but dosen´t knows where to start. You maybe never have been on a gym, or never trained at all, and for that target group, this website makes it possible to sign up so you can get access to a gallery with several vdeor, and information that will support a better health, and to actually start training!
+Have you ever wondered how many horse breeds there are on earth? Or maybe which horse Zorro rides on? In any case, you have come to the right place. In this quiz, you as a user get the opportunity to test your knowledge in order to develop your skills in horses!
 
-![Responsice Mockup](/assets/images/for_readme_file.png)
 
 ## Features 
 
-On my website there is a Home page where I immediately catch the user's attention with the help of starting training. I explain the why´s, how´s and some brief action measures what membership can bring the user for benefits in the long run.
+In this quiz, you as a user can gain a broader knowledge of horses, and things associated with horses. It makes you think, and maybe it challenges you a bit even if you are knowledgeable in the field of horses. It's not an ordinary quiz, it's a quiz that will make even the smartest horse head think!
+
 
 ### Existing Features
-__Navigation Bar__
-- [Landing Page](https://5500-saram88-helaminfullatam-fq2y2b0nxao.ws-eu90.gitpod.io/assets/index.html)
-- [Landing Page](https://5500-saram88-helaminfullatam-fq2y2b0nxao.ws-eu90.gitpod.io/assets/index.html#information)
-- [Landing Page](https://5500-saram88-helaminfullatam-fq2y2b0nxao.ws-eu90.gitpod.io/assets/index.html#signup)
-- [Landing Page](https://5500-saram88-helaminfullatam-fq2y2b0nxao.ws-eu90.gitpod.io/assets/index.html#contact)
 
-__The landing page image__
+- Header and name.
+  At the beginning of my page, the name of the Quiz is shown so that you can quickly see what   it is about.
 
-On my landing page, I have posted a photo that directly creates contact with the user. That we mean business and that we can really help to get the training done.
+  ![image](https://github.com/saram88/Horses/assets/127104599/3b93de50-9c02-4093-9348-    7da33ce4e3bd)
+  
+  
+#### Divs classes ####
+  In this section, the user should easily be able to get an overview of all the questions       asked. And then there is an accompanying image that gives a hint as to what the question       refers to
+  
+  ![image](https://github.com/saram88/Horses/assets/127104599/5da34d70-fd38-4960-90c4-          1f1efd8a6395)
 
-[Landing Page](https://5500-saram88-helaminfullatam-fq2y2b0nxao.ws-eu90.gitpod.io/assets/index.html)
+#### Submit ####
+  The user must be able to easily submit the test, and this is done by clicking on the Submit   button. If the user presses the button before filling in an answer, the answer options will   light up in red. In the case of a red answer, they light up green.
 
-__Do you wanna get better of training?__
+  ![image](https://github.com/saram88/Horses/assets/127104599/dc90cd1e-4a92-40a2-a6f7-  5dabdf5ec5cd)
 
-  - Here we explain to the user why one should become a member. And why we as a company exist and what we want to fix for our targetgroup.
+#### Score area ####
+  Here can the user easy se how many answers that is wright or wrong. 
 
-[Landing Page](https://5500-saram88-helaminfullatam-fq2y2b0nxao.ws-eu90.gitpod.io/assets/index.html#information)
-
-__Get help with your training without having to pay a fortune__
-
-  - In my third page, I present a video what a training exercise might look like. And In my fourth page I explain how to become a member and some brief action measures what membership can bring the user for benefits in the long run.
-
-
-__SIGN UP__
-
-  - In my fifth page, I have added a form where you sign up quickly and easily. It has a background in white to drag the user's experience into performing the sign up
-
-[Landing Page](https://5500-saram88-helaminfullatam-fq2y2b0nxao.ws-eu90.gitpod.io/assets/index.html#signup)
-
-
-__The Footer__ 
-
-  - Here I have written down contact information for anyone who has any questions or wants to get in touch with us for other reasons. I also have links to our social media.
-
-
-[Footer](https://5500-saram88-helaminfullatam-fq2y2b0nxao.ws-eu90.gitpod.io/assets/index.html#contact)
-
+  ![image](https://github.com/saram88/Horses/assets/127104599/cc2eb48a-42f1-40a4-a959-8b0d44519a63)
 
 
 ### Features Left to Implement
 
-- Another feature idea is to build a community that users can meet other people. Many personal trainers have that today but you need to pay for it, here you can share good idéas to each other at a much lower cost.
+- Another feature idea is to build the quiz whit more question and make it possible to select different areas of interest in which you want to develop your knowledge. Also to make it in new pages for each question so you get a easier way to watch the quiz. 
 
 
 
 ### Testing 
 
-I've test-driven the page on validering.w3.org for both my html code and ccs styling. In addition to that, I have tested myself via browser tools for validation. Also have to test on my two different cell phone varieties as well as an ipad.
+I've test-driven the page on validering.w3.org for both my html code and ccs styling. In addition to that, I have tested myself via browser tools for validation. Also have to test on my two different cell phone varieties as well as an ipad. MER?????
 
 
 
