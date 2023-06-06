@@ -5,6 +5,7 @@
 	  	for (let index = 0; index < myQuestions.length; index++) {
 		
 			var question = myQuestions[index];
+			// Get question element
 			var questionCont = document.getElementById('question' + (index + 1));
 			questionCont.innerText = question.question;
 
@@ -21,7 +22,8 @@
 				</label>`
 				);
 		  	}
-  
+			
+			// Get answer element
 			var answerCont = document.getElementById('answers' + (index + 1));
 			answerCont.innerHTML = answers.join('');
 		}
