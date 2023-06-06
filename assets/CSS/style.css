@@ -14,12 +14,6 @@ body {
     font-size: 2.5rem;
 }
 
-#logo {
-    width: 160px;
-    height: 20vh;
-    background-size: cover;
-    background-image: url('../../assets/Images/horses-2904536_1280.jpg');
-  }
 
 /* --------- Quiz layout */
 
