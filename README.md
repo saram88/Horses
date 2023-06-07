@@ -11,23 +11,23 @@ In this quiz, you as a user can gain a broader knowledge of horses, and things a
 
 ### Existing Features
 
-#### Header and name ####
+#### Header and name: ####
   At the beginning of my page, the name of the Quiz is shown so that you can quickly see what it is about.
 
   ![image](https://github.com/saram88/Horses/assets/127104599/3b93de50-9c02-4093-9348-7da33ce4e3bd)
   
   
-#### Divs classes ####
+#### Divs classes: ####
   In this section, the user should easily be able to get an overview of all the questions       asked. And then there is an accompanying image that gives a hint as to what the question       refers to
   
   ![image](https://github.com/saram88/Horses/assets/127104599/5da34d70-fd38-4960-90c4-1f1efd8a6395)
 
-#### Submit ####
+#### Submit: ####
   The user must be able to easily submit the test, and this is done by clicking on the Submit   button. If the user presses the button before filling in an answer, the answer options will   light up in red. In the case of a red answer, they light up green.
 
   ![image](https://github.com/saram88/Horses/assets/127104599/dc90cd1e-4a92-40a2-a6f7-5dabdf5ec5cd)
 
-#### Score area ####
+#### Score area: ####
   Here can the user easy se how many answers that is wright or wrong. 
 
   ![image](https://github.com/saram88/Horses/assets/127104599/cc2eb48a-42f1-40a4-a959-8b0d44519a63)
