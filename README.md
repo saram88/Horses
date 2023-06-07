@@ -53,6 +53,11 @@ I've test-driven the page on validering.w3.org for both my html code and ccs sty
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F5500-saram88-helaminfullatam-fq2y2b0nxao.ws-eu90.gitpod.io%2Fassets%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
 
+- Lighthouse rapport 
+
+![image](https://github.com/saram88/Horses/assets/127104599/8e99c23c-4ef8-4350-b73d-7a85273ea201)
+
+
 ### Unfixed Bugs
 
 I don´t have any unfixed bugs.
@@ -63,7 +68,7 @@ When I was inside my project, I went to the little tab called "Settings". From h
 
 
 
-The live link can be found here - 
+The live link can be found here - https://github.com/saram88/Horses.git
 
 ## Credits 
 
