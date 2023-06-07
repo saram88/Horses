@@ -8,6 +8,8 @@ Have you ever wondered how many horse breeds there are on earth? Or maybe which 
 
 In this quiz, you as a user can gain a broader knowledge of horses, and things associated with horses. It makes you think, and maybe it challenges you a bit even if you are knowledgeable in the field of horses. It's not an ordinary quiz, it's a quiz that will make even the smartest horse head think!
 
+I have built my page by putting the HTML code which then matches the structure of my javascript document. I have then been able to fill in the values ​​from the javascript directly to the html page. I have also built the page so that the questions are dynamic.
+
 
 ### Existing Features
 
