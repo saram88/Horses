@@ -11,7 +11,7 @@ In this quiz, you as a user can gain a broader knowledge of horses, and things a
 
 ### Existing Features
 
-- Header and name.
+#### Header and name ####
   At the beginning of my page, the name of the Quiz is shown so that you can quickly see what it is about.
 
   ![image](https://github.com/saram88/Horses/assets/127104599/3b93de50-9c02-4093-9348-7da33ce4e3bd)
