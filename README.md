@@ -76,11 +76,8 @@ The live link can be found here - https://github.com/saram88/Horses.git
 
 In my project, I have chosen to download video and photographs from these links:
 
-- https://icons8.com/icons/set/twitter
-- https://icons8.com/icons/set/facebook 
-- https://icons8.com/icons/set/instagram
 - https://pixabay.com
-- https://canva.com 
+
 
 ### Content 
 
