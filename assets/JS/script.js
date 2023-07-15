@@ -129,8 +129,37 @@
 	  document.getElementById("score").innerText = correctAnswer;
 	  document.getElementById("incorrect").innerText = wrongAnswer;
 
+	  showScoreBoard();
 	}
-  
+	
+	function addPlayerScore() {
+		var playerName = document.getElementById('player').value;
+
+		if (playerName.length > 0) {
+			var playerScore = document.getElementById("score").innerText + "/" + myQuestions.length;
+			scoreBoard.push({name: playerName, score: playerScore});
+			document.getElementById('player').value = "";
+		}
+
+		showScoreBoard();
+	}
+
+	function showScoreBoard() {
+
+		if (scoreBoard.length > 0) {
+			var result = document.getElementById('result');
+			result.innerText = "";
+
+			for (let index = 0; index < scoreBoard.length; index++) {
+				var score = scoreBoard[index];
+				
+			   //const element = document.createElement("p");
+			   result.innerHTML += score.name + ": " + score.score + "<br>";
+				//result.appendChild(element);
+
+			}
+		}
+	}
  
 	// Variables
 	var questionIndex = 0;	
@@ -194,6 +223,8 @@
 	  }
 	];
   
+	var scoreBoard = [];
+
 	// Start quiz
 	buildQuestions();
 
@@ -209,5 +240,8 @@
 
 	var submitButton = document.getElementById('submit');
 	submitButton.addEventListener('click', displayResult);
+
+	var addScoreButton = document.getElementById('add-score');
+	addScoreButton.addEventListener('click', addPlayerScore);
 
   })();

@@ -100,13 +100,17 @@ body {
     margin-bottom: 5px;
 }
 
+.btn-small {
+    width: 180px;
+    height: 20px;
+}
+
 .btn:focus {
     outline: none;
 }
 
-
 .btn--gray {
-    margin-top: 25px;
+    margin-top: 5px;
     background-color: #445361;
     border: 1px transparent;
     border-radius: 20px;
