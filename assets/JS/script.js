@@ -171,6 +171,26 @@
 		  b: "No"
 		},
 		correctAnswer: "b"
+	  },
+	  {
+		question: "What side do you mount a horse from?",
+		imageSrc: "./assets/Images/Pic5.jpg",
+		answers: {
+		  a: "Left",
+		  b: "Right"
+		},
+		correctAnswer: "a"
+	  },
+	  {
+		question: "What do you use to clean a horse's hooves?",
+		imageSrc: "./assets/Images/Pic6.jpg",
+		answers: {
+		  a: "Hoof sponge",
+		  b: "Spoon",
+		  c: "Hoof pick",
+		  d: "Rasp"
+		},
+		correctAnswer: "c"
 	  }
 	];
   
