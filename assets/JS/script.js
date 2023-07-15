@@ -2,13 +2,22 @@
 
 	function buildQuestions(){
 	  
+		questionIndex = 0;
+
+		const quizContainer = document.getElementById('quiz');
+		const answerContainers = quizContainer.querySelectorAll('.answers');
 	  	for (let index = 0; index < myQuestions.length; index++) {
 		
 			var question = myQuestions[index];
+			
+			// Reset colors
+			answerContainers[index].style.color = 'black';
+
 			// Get question element
 			var questionCont = document.getElementById('question' + (index + 1));
-			questionCont.innerText = question.question;
-
+			questionCont.innerText = (index + 1)+ ". " + question.question;
+			
+			var image = document.getElementById('image'); 
 		 	const answers = [];
   
 			for(let letter in question.answers){
@@ -27,8 +36,60 @@
 			var answerCont = document.getElementById('answers' + (index + 1));
 			answerCont.innerHTML = answers.join('');
 		}
+		document.getElementById('restart').style.display = 'none';
+		document.getElementById('scores').style.display = 'none';
 	}
-  
+	
+	function nextQuestion() {
+		questionIndex++;
+		// Display current question
+		showQuestion();
+	}
+
+
+	function restartQuiz(){
+	
+	  // Restart the quiz
+	  if (confirm('Do you want to restart the quiz?')) {
+	 	  
+	  	buildQuestions();
+	  	showQuestion();
+	  }
+	}
+	
+	function showQuestion() {
+		
+		for (let index = 0; index < myQuestions.length; index++) {
+			
+			// Show only current question
+			var container = document.getElementById('container' + (index + 1));
+			if (index == questionIndex) {
+				container.style.display = 'table';
+			}
+			else
+			{
+				container.style.display = 'none';
+			}
+		}
+
+		// Show/hide buttons
+		if (questionIndex < myQuestions.length - 1)
+		{
+			document.getElementById('next').style.display = 'inline-block';
+			document.getElementById('submit').style.display = 'none';
+		}
+		else
+		{
+			document.getElementById('next').style.display = 'none';
+			document.getElementById('submit').style.display = 'inline-block';
+		}
+
+		if (questionIndex > 0) {
+			document.getElementById('restart').style.display = 'inline-block';
+		}
+	}
+
+
 	function displayResult(){
   
 	  // get answers
@@ -40,6 +101,9 @@
   	  
 		for (let index = 0; index < myQuestions.length; index++) {
   
+		var container = document.getElementById('container' + (index + 1));
+		container.style.display = 'table';
+
 		// Get selected answer
 		const answerContainer = answerContainers[index];
 		const selector = `input[name=question${index}]:checked`;
@@ -51,20 +115,26 @@
 		  	answerContainers[index].style.color = 'green';
 		}
 		// if answer is wrong or blank
-		else{
+		else {
 			wrongAnswer++;
 		  	answerContainers[index].style.color = 'red';
 		}
 	  };
   
+	  // Hide submit-button
+	  document.getElementById('submit').style.display = 'none';
+	  
 	  // show correct answers 
+	  document.getElementById('scores').style.display = 'block';
 	  document.getElementById("score").innerText = correctAnswer;
 	  document.getElementById("incorrect").innerText = wrongAnswer;
+
 	}
   
  
 	// Variables
-	
+	var questionIndex = 0;	
+
 	const myQuestions = [
 	  {
 		question: "How many legs does a horse have?",
@@ -106,9 +176,18 @@
   
 	// Start quiz
 	buildQuestions();
-  
+
+	// Show first question
+	showQuestion();
+
 	// Event listeners
-	const submitButton = document.getElementById('submit');
+	var restartButton = document.getElementById('restart');
+	restartButton.addEventListener('click', restartQuiz);
+
+	var nextButton = document.getElementById('next');
+	nextButton.addEventListener('click', nextQuestion);
+
+	var submitButton = document.getElementById('submit');
 	submitButton.addEventListener('click', displayResult);
 
   })();
