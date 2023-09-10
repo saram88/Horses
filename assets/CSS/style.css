@@ -24,7 +24,7 @@ body {
 }
 
 .background {
-    background-image: url(/assets/Images/Background.jpg);
+    background-color: #55865b;
     background-repeat: no-repeat;
     height: 100vh;
     -webkit-background-size: cover;
