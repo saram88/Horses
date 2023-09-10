@@ -1,18 +1,64 @@
 /* --------- Global style */
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: #ece5bb;
     font-family: "Raleway", sans-serif;
-    color: #445361;
+    color: #0f0f0f;
     text-align: center;
+    margin: 0;
+    background: linear-gradient(white, transparent);
 }
 
 /* --------- Heading */
 
 .heading {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 4rem;
+    box-sizing: border-box;
+    width: 85%;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 5px;
 }
+
+.background {
+    background-image: url(/assets/Images/Pic2.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background: url(/assets/Images/Background.jpg) no-repeat top left fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+/*-----------start*/
+
+.how-it-works {
+    text-align: left;
+    background-color:#e9e9cd;
+    box-sizing: border-box;
+    width: 85%;
+    max-width: 830px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 10px 2px #0f0f0f;
+    color:#0f0f0f;
+    background: linear-gradient(45deg, white, transparent);
+    letter-spacing: 1.9px;
+}
+
 
 
 /* --------- Quiz layout */
@@ -24,7 +70,7 @@ body {
     max-width: 830px;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
+    padding: 100px;
     border-radius: 5px;
     box-shadow: 2px 4px 10px 2px #d9d7d7
 }
@@ -45,6 +91,7 @@ body {
 .question-box {
     text-align: left;
     float: left;
+    font-size: x-large;
 }
 
 .question{
@@ -56,10 +103,6 @@ body {
 .answers label{
   display: block;
 }
-
-
-
-
 
 .score-area {
     margin: 5px auto;
@@ -95,7 +138,7 @@ body {
     height: 60px;
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
-    letter-spacing: 1.2px;
+    letter-spacing: 2.8px;
     color: white;
     margin-bottom: 5px;
 }
@@ -111,14 +154,14 @@ body {
 
 .btn--gray {
     margin-top: 5px;
-    background-color: #445361;
+    background-color: #0f0f0f;
     border: 1px transparent;
     border-radius: 20px;
 }
 
 .btn--gray:active,
 .btn--gray:hover {
-    background-color: #0d1013;
+    background-color: #55865b;
 }
 
 /* --------- Media queries */

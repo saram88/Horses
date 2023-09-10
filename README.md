@@ -1,13 +1,4 @@
-# Horses
-
-- Namn
-- Starta om
-- High score
-- En fråga i taget
-- 2 till frågor
-- Tillägg från tidigare README( det ovan)
-- Kan ej gå tillbaka och ändra svar under pågående Quiz
-- Byt screenshot
+# Horses quiz game
   
 Have you ever wondered how many horse breeds there are on earth? Or maybe which horse Zorro rides on? In any case, you have come to the right place. In this quiz, you as a user get the opportunity to test your knowledge in order to develop your skills in horses!
 
@@ -28,24 +19,42 @@ I have built my page by putting the HTML code which then matches the structure o
   
   
 #### Divs classes: ####
-  In this section, the user should easily be able to get an overview of all the questions       asked. And then there is an accompanying image that gives a hint as to what the question       refers to
+  In this section, the user should easily be able to get an overview of all the question about how you play the qiuz. And then there is an accompanying image that gives a hint as to what the question refers to.
   
-  ![image](https://github.com/saram88/Horses/assets/127104599/5da34d70-fd38-4960-90c4-1f1efd8a6395)
+  ![image](/assets/Images/Start.png)
 
-#### Submit: ####
-  The user must be able to easily submit the test, and this is done by clicking on the Submit   button. If the user presses the button before filling in an answer, the answer options will   light up in red. In the case of a red answer, they light up green.
+#### Start game: ####
+  To start the quiz the user must click on the "start quiz" button. The test can´t start before that.
 
-  ![image](https://github.com/saram88/Horses/assets/127104599/dc90cd1e-4a92-40a2-a6f7-5dabdf5ec5cd)
+  ![image](/assets/Images/startbutton.png)
 
-#### Score area: ####
-  Here can the user easy se how many answers that is wright or wrong. 
+#### The quiz: ####
+  The player only gets one question at time. And its not possible to mov forward to next question before you answer the one you are at. 
 
-  ![image](https://github.com/saram88/Horses/assets/127104599/cc2eb48a-42f1-40a4-a959-8b0d44519a63)
+  From question two and forward, you can deside if you want to restart the game, then the player come back to the first quetion. Before you go there, one warning box comes up if you really want to go back.
+
+
+  ![image](/assets/Images/play.png)
+
+#### Submit ####
+ After the player have answer all question, they easaliy can se the scoreboard. And the player can also fill in the name of yours.
+
+
+  ![image](/assets/Images/score.png)
+
+
+#### Footer ####
+
+The user can simply get in touch whit our company to ask questions. But notise, this is only for education so the email adress is not for real.
+
+ ![image](/assets/Images/footer.png)
 
 
 ### Features Left to Implement
 
-- Another feature idea is to build the quiz whit more question and make it possible to select different areas of interest in which you want to develop your knowledge. Also to make it in new pages for each question so you get a easier way to watch the quiz. 
+- Another feature idea is to build the quiz whit more question and make it possible to select different areas of interest in which you want to develop your knowledge.
+
+- A scoreboard live site that the user can se other players result and also communicate to meet new player whit the same intrest.
 
 
 

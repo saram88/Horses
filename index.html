@@ -8,96 +8,36 @@
 	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
     <link href="./assets/CSS/style.css" rel="stylesheet" type="text/css">
   </head>
-  <body>
-	<h1 class="heading">
-		Simple horsequiz
-	</h1>
+  	<body>
+		<div class="background">
+		<h1 class="heading">
+			Simple horsequiz
+		</h1>
 
-	<h3>
-		Here you can test your knowledge of horses
-	</h3>
-
-	<!-- score and score board -->
-	<div id="scores" class="score-area">
-		<p class="scores">Correct Answers: <span id="score">0</span></p>
-		<p class="scores">Incorrect Answers: <span id="incorrect">0</span></p>
-		<div id="scoreboard" class="score-board">
-			<label for="player">Player name:</label>
-			<input id="player" type="text"/>
-			<button id="add-score" class="btn btn-small btn--gray">Add your score</button>
-			<div id="result"></div>
+		<div class="how-it-works">
+			<h1>How to play</h1>
+			Here you can test your knowledge of horses
+			Have you ever wondered how many horse breeds there are on earth? 
+			Or maybe which horse Zorro rides on? In any case, you have come to the right place. 
+			In this quiz, you as a user get the opportunity to test your knowledge in order to develop your skills in horses!
+			<div>
+				<ul>
+					<li>You start the game simply by answering the first question above.<br>
+						You choose one of the answer options and then press "next question". </li>
+					<li>Once you have chosen an answer and pressed the button to get to the next question, <br>
+						you cannot regret it and the next question will come up.</li>
+					<li>When you have answer all questions you can se wrong and right answers,<br> 
+							you can also write your name push "add your score to se a submitted score"</li>
+					<li>If you want to restart the game, you just push the button "restart game" and the game will go back to first question</li>
+				</ul>
+			</div>
 		</div>
-	</div>
-
-	<!-- Quiz area and questions -->
-	<div class="quiz-area">
-		<div id="quiz">
-			<div id="container1" class="question-container">
-				<div class="question-image">
-					<img src="./assets/Images/Pic1.jpg" alt="Horse image 1">
-				</div>
-				<div class="question-box">
-					<div class="question" id="question1"> </div>
-					<div class="answers" id="answers1"> </div>
-				</div>
-			 </div>
-
-			 <div id="container2" class="question-container">
-				<div class="question-image">
-					<img src="./assets/Images/Pic2.jpg" alt="Horse image 2">
-				</div>
-				<div class="question-box">
-					<div class="question" id="question2"> </div>
-					<div class="answers" id="answers2"> </div>
-				</div>
-			 </div>
-
-			 <div id="container3" class="question-container">
-				<div class="question-image">
-					<img src="./assets/Images/Pic3.jpg" alt="Horse image 3">
-				</div>
-				<div class="question-box">
-					<div class="question" id="question3"> </div>
-					<div class="answers" id="answers3"> </div>
-				</div>
-			 </div>
-
-			 <div id="container4" class="question-container">
-				<div class="question-image">
-					<img src="./assets/Images/Pic4.jpg" alt="Horse image 4">
-				</div>
-				<div class="question-box">
-					<div class="question" id="question4"> </div>
-					<div class="answers" id="answers4"> </div>
-				</div>
-			 </div>
-
-			 <div id="container5" class="question-container">
-				<div class="question-image">
-					<img src="./assets/Images/Pic5.jpg" alt="Horse image 4">
-				</div>
-				<div class="question-box">
-					<div class="question" id="question5"> </div>
-					<div class="answers" id="answers5"> </div>
-				</div>
-			 </div>
-
-			<div id="container6" class="question-container">
-				<div class="question-image">
-					<img src="./assets/Images/Pic6.jpg" alt="Horse image 4">
-				</div>
-				<div class="question-box">
-					<div class="question" id="question6"> </div>
-					<div class="answers" id="answers6"> </div>
-				</div>
-			 </div>
+		<a href="/quiz.html">
+			<button class="btn btn--gray">
+				start quiz
+			</button>
+		</a>
 		</div>
-		<!-- Navigation -->
-		<button id="restart" class="btn btn--gray">Restart Quiz</button>
-		<button id="next" class="btn btn--gray">Next Question</button>
-		<button id="submit" class="btn btn--gray">Submit Quiz</button>
-	</div>
-    
     <script src="./assets/JS/script.js"></script>
-  </body>
+  	</body>
 </html>
