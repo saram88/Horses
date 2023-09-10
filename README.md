@@ -2,6 +2,9 @@
   
 Have you ever wondered how many horse breeds there are on earth? Or maybe which horse Zorro rides on? In any case, you have come to the right place. In this quiz, you as a user get the opportunity to test your knowledge in order to develop your skills in horses!
 
+The live link can be found here - https://github.com/saram88/Horses.git
+
+
 
 ## Features 
 
@@ -45,7 +48,7 @@ I have built my page by putting the HTML code which then matches the structure o
 
 #### Footer ####
 
-The user can simply get in touch whit our company to ask questions. But notise, this is only for education so the email adress is not for real.
+The user can simply get in touch whit our company to ask questions. But notise, this is only for education so the email adress is not for real and have no connection. The user need to copy and paste the mail adress.
 
  ![image](/assets/Images/footer.png)
 
@@ -84,8 +87,6 @@ I don´t have any unfixed bugs.
 
 When I was inside my project, I went to the little tab called "Settings". From here I pressed the small sidebar and then "Pages". Here I found the heading "Branch" where you should choose "main" as your branch
 
-
-
 The live link can be found here - https://github.com/saram88/Horses.git
 
 ## Credits 
@@ -95,6 +96,7 @@ The live link can be found here - https://github.com/saram88/Horses.git
 In my project, I have chosen to download video and photographs from these links:
 
 - https://pixabay.com
+- https://www.site24x7.com/sv/tools/farg-kod-valjare.html ( to find right HEX code to match in my CSS style)
 
 
 ### Content 
