@@ -24,10 +24,9 @@ body {
 }
 
 .background {
-    background-image: url(/assets/Images/Pic2.jpg);
+    background-image: url(/assets/Images/Background.jpg);
     background-repeat: no-repeat;
     height: 100vh;
-    background: url(/assets/Images/Background.jpg) no-repeat top left fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
