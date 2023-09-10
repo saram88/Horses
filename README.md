@@ -3,6 +3,7 @@
 Have you ever wondered how many horse breeds there are on earth? Or maybe which horse Zorro rides on? In any case, you have come to the right place. In this quiz, you as a user get the opportunity to test your knowledge in order to develop your skills in horses!
 
 The live link can be found here - https://github.com/saram88/Horses.git
+Here is the link to my GitHub - https://github.com/saram88/Horses
 
 
 
