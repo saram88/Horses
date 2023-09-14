@@ -1,17 +1,17 @@
 /* --------- Global style */
 
 body {
-    background-color: #ece5bb;
+    background-color: #E6ECF0;
     font-family: "Raleway", sans-serif;
     color: #0f0f0f;
     text-align: center;
     margin: 0;
-    background: linear-gradient(white, transparent);
 }
 
 /* --------- Heading */
 
 .heading {
+    background-color: white;
     text-align: center;
     font-size: 4rem;
     box-sizing: border-box;
@@ -24,26 +24,44 @@ body {
 }
 
 .background {
-    background-color: #55865b;
-    background-repeat: no-repeat;
-    height: 100vh;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
+    position: fixed;
     right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 
 /*-----------start*/
 
 .how-it-works {
+    background-color: white;
+    opacity:59%;
+    text-align: center;
+    background-color:#white;
+    box-sizing: border-box;
+    width: 85%;
+    max-width: 830px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 10px 2px #0f0f0f;
+    color:#white;
+    background: linear-gradient;
+    letter-spacing: 1.9px;
+}
+
+.myUL {
+    display: inline-block;
     text-align: left;
-    background-color:#e9e9cd;
+}
+
+.heading {
+    text-align:center
+    background-color:white;
     box-sizing: border-box;
     width: 85%;
     max-width: 830px;
@@ -53,17 +71,16 @@ body {
     padding: 10px;
     border-radius: 5px;
     box-shadow: 2px 4px 10px 2px #0f0f0f;
-    color:#0f0f0f;
-    background: linear-gradient(45deg, white, transparent);
+    color:#white;
+    background: linear-gradient;
     letter-spacing: 1.9px;
 }
-
 
 
 /* --------- Quiz layout */
 
 .quiz-area {
-    background-color: #E6ECF0;
+    background-color:white;
     box-sizing: border-box;
     width: 85%;
     max-width: 830px;
@@ -71,7 +88,7 @@ body {
     margin-right: auto;
     padding: 100px;
     border-radius: 5px;
-    box-shadow: 2px 4px 10px 2px #d9d7d7
+    box-shadow: 2px 4px 10px 2px #0f0f0f;
 }
 .question-container {
     display: table;
@@ -138,7 +155,7 @@ body {
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2.8px;
-    color: white;
+    color: black;
     margin-bottom: 5px;
 }
 
@@ -152,15 +169,17 @@ body {
 }
 
 .btn--gray {
+    background-color:#E6ECF0;
+    opacity: 66%;
     margin-top: 5px;
-    background-color: #0f0f0f;
+    background-color: #white;
     border: 1px transparent;
     border-radius: 20px;
 }
 
 .btn--gray:active,
 .btn--gray:hover {
-    background-color: #55865b;
+    background-color: #7e7f81;
 }
 
 /* --------- Media queries */
