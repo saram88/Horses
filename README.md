@@ -35,8 +35,7 @@ I have built my page by putting the HTML code which then matches the structure o
   ![image](/assets/Images/play.png)
 
 #### Submit ####
- After the player have answer all question, they easaliy can se the scoreboard. And the player can also fill in the name of yours.
-
+ After the player have answer all question, they easaliy can se the scoreboard. And the player can also fill in the name of yours. If you restart the game the user scoreboard are still there to compare with each other.
 
   ![image](/assets/Images/score.png)
 
@@ -83,9 +82,8 @@ I don´t have any unfixed bugs.
 
 When I was inside my project, I went to the little tab called "Settings". From here I pressed the small sidebar and then "Pages". Here I found the heading "Branch" where you should choose "main" as your branch
 
-The live link can be found here - https://github.com/saram88/Horses.git
-
 ## Credits 
+- Code Institute Tutor support for guidance 
 
 ### Media
 
